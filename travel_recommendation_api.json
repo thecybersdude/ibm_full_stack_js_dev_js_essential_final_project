@@ -22,7 +22,7 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "./images/tokyo.jpg",
+            "imageUrl": "./images/tokyo.jpeg",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
@@ -38,12 +38,12 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "./images/rio.jpg",
+            "imageUrl": "./images/rio.jpeg",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "./images/sao-paulo.jpg",
+            "imageUrl": "./images/sao-paulo.jpeg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -53,7 +53,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "./images/angkor-wat.jpg",
+        "imageUrl": "./images/angkor-wat.jpeg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
