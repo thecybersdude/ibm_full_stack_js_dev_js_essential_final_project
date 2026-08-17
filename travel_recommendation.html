@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trav-Advisor</title>
+        <link rel="stylesheet" href="./travel_recommendation.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <strong>Trav-Advisor</strong>
+            <ul class="nav-links">
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="travelInput" placeholder="Enter a destination or a keyword">
+                <button class="btn-search">Search</button>
+                <button class="btn-clear">Clear</button>
+            </div>
+        </nav>
+
+        <div class="presentationDiv">
+            <div>
+                <h1 class="presentationHeader">Explorez et Partagez <br/> Voyagez mieux.</h1>
+            </div>
+            <div class="presentationText">
+                <p>
+                    Trav-advisor vous guide vers des expériences uniques. Parce que voyager c'est bien plus que visiter de nouveaux endroits
+                    Connectez-vous aux recommandations d'une communauté de voyageurs passionnés et créez le voyage qui vous ressemble.
+                </p>
+            </div>
+            <div>
+                <button id="bookNowBtn">
+                    Réserver maintenant
+                </button>
+            </div>
+        </div>
+
+        <section class="recommendations-section">
+            <h2 id="presentationHeader">Nos Destinations Recommandées</h2>
+            <div id="recommendations-container"></div>
+        </section>
+        
+        <script src="./travel_recommendation.js"></script>
+    </body>
+</html>
